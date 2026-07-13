@@ -1,5 +1,5 @@
 import Navbar from "../components/Navbar";
-import "./rgiesume.css";
+import "./resume.css";
 
 function Resume() {
   return (
