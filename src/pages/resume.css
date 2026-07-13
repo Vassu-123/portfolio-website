@@ -1,0 +1,71 @@
+.resume{
+    min-height:100vh;
+    padding:60px 10%;
+    background:#eef2ff;
+}
+
+.resume-container{
+    max-width:900px;
+    margin:auto;
+    text-align:center;
+}
+
+.resume h1{
+    font-size:42px;
+    color:#1e293b;
+}
+
+.resume-intro{
+    color:#555;
+    margin:20px 0 40px;
+    line-height:1.7;
+}
+
+.resume-card{
+    background:white;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 10px 20px rgba(0,0,0,.08);
+}
+
+.resume-card h2{
+    color:#667eea;
+    margin-bottom:20px;
+}
+
+.resume-card p{
+    color:#555;
+    line-height:1.8;
+    margin-bottom:30px;
+}
+
+.resume-btn{
+    display:inline-block;
+    text-decoration:none;
+    background:#667eea;
+    color:white;
+    padding:14px 28px;
+    border-radius:30px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.resume-btn:hover{
+    background:#4f46e5;
+}
+
+@media(max-width:768px){
+
+.resume{
+padding:40px 20px;
+}
+
+.resume h1{
+font-size:32px;
+}
+
+.resume-card{
+padding:25px;
+}
+
+}
